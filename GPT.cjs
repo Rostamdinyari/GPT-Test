@@ -6,7 +6,7 @@ const port = 3000;
 app.get('/api/data', (req, res) => {
   const jsonData = {
     name: 'Shirin',
-    age: 45,
+    age: 47,
     city: 'Example City'
   };
   res.json(jsonData);
